@@ -1,7 +1,6 @@
 {
   "name": "rc-lzbui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "main": "lib/index.js",
   "module": "es/index.js",
   "author": "bluesirl",
@@ -68,8 +67,8 @@
     "build:commonjs": "cross-env BABEL_OUTPUT=commonjs babel src/components --out-dir lib/ --ignore **/__tests__,**/__mocks__",
     "build:es": "babel src/components --out-dir es/ --ignore **/__tests__,**/__mocks__",
     "compile:less": "gulp transformLess",
-    "copy-css:es": "cpx \"src/components/**/*.{css|less}\" es",
-    "copy-css:lib": "cpx \"src/components/**/*.{css|less}\" lib"
+    "copy-css:es": "cpx \"src/components/**/*.{css,less}\" es",
+    "copy-css:lib": "cpx \"src/components/**/*.{css,less}\" lib"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
