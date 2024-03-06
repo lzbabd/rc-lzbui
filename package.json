@@ -1,6 +1,6 @@
 {
   "name": "rc-lzbui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/bluesirl/rc-lzbui.git",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "dev": "father dev",
     "build": "father build",
